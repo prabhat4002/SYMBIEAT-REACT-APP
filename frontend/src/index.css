@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+*{
+  box-sizing: border-box; /* //predictabel box sizing */
+}
+
+body{
+  margin:0;
+  font-family:Quicksand, sans-serif;
+}
+
+a{
+  text-decoration:none;  /* //to avoid underline*/
+}
