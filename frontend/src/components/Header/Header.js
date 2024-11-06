@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header(){
     const user={
-        name:'John',
+        name:'Prabhat',
     };
     const cart={
         totalCount:10,
@@ -17,6 +17,11 @@ export default function Header(){
            <Link to="/" classname={classes.logo}>
            SymbiEat!
            </Link>
+           <img
+                        src="symbi-logo.jpg" 
+                        alt="Logo"
+                        className={classes.logoImage}
+                    />
            <nav>
             <ul>
                 {
