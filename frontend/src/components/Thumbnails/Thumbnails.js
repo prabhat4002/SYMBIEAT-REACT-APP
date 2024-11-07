@@ -22,7 +22,7 @@ export default function Thumbnails({ foods }) {
                         <span
                             className={`${classes.favorite} ${food.favorite ? '' : classes.not}`}
                         >
-                            ♡
+                            ❤
                         </span>
                         <div className={classes.stars}>
                             <StarRating stars={food.stars}/>
