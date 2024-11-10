@@ -42,7 +42,7 @@
     }
     .menu{
         position:absolute;
-        z-index:1;
+        z-index:1001;
         background-color: whitesmoke;
         display:none;
     }
@@ -65,16 +65,13 @@
 
     }
 
-    .logoContainer {
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Center the logo */
-        justify-content: center;
+    .chatbotLink {
+        padding: 1rem;
+        color: #af1313;
     }
     
-    /* Style for the logo image */
-    .logoImage {
-        margin-top: 10px; /* Adjust as needed */
-        width: 50px; /* Adjust the size of your logo */
-        height: auto;
+    .chatbotLink:hover {
+        background: #e72929;
+        color: white;
     }
+    
