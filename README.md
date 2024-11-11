@@ -13,6 +13,10 @@ Scope:
 The core areas the eSymbiEat application focuses on are the following:
 User Interface (UI): The application utilises the responsive design from React. This contains the following pages: homepage, food pages, cart page, user profile page, and checkout page. Users can change between the pages using React Router, and the UI is interactive and user-friendly.
 Food Management: Users can easily search for their food items with images, titles, prices, and descriptions. They can filter foods under particular categories, and search by specific names and view additional information on each food item on the individual food page. Chatbot adds an interactivity layer in providing end-users with information about food items based on their queries.
+
+
+![image](https://github.com/user-attachments/assets/205686e5-08a2-494c-ad4d-2fe3c1f85354)
+
 Cart and Order Management: End-users will be able to add food items, change quantities, and complete a checkout transaction. This app can easily update any cart management with order details captured in the back end for processing.
 Authentication: The app has secure user authentication provided through the JWT tokens to let the users authenticate, register, login, and maintain their profiles. This ensures that the information remains safe with the user and only the authenticated person can access it.
 Back-end integration: The Node.js and Express.js frameworks are used for building the back-end of this application. And MongoDB is being used as the database. With it, the back-end manages functionalities of user authentication, food data management, order creation, etc. The application does support real-time communication with the front end through RESTful APIs.
@@ -27,30 +31,7 @@ Order Placement: The user can order, view the cart, and check out for payment.
 Responsive Design: The app is designed so that it performs very well on all the devices and screen sizes with no problems.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/b8508a3d-85ab-440b-a74c-7d7355efc69e)
 
 
 TECHNOLOGY STACK
