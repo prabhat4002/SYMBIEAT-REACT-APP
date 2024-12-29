@@ -4,7 +4,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 const router = express.Router();
 
 // Ensure the API key is loaded correctly
-const apiKey = "AIzaSyCEXiHRUygEWtixNH69TxVlS5XSgJhNN9M";
+const apiKey = "ENTER KEY HERE";
 if (!apiKey) {
     console.error('Gemini API key is missing!');
 }
